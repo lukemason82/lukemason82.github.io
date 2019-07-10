@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if page.title %}{{page.title}} - {% endif %}Edwardian FC</title>
+	<meta name="description" content="A community amateur Rugby Club">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+	<link href="/style.css" rel="stylesheet">
+	<script type="text/javascript" src="/script.js"></script>
+</head>
+<body lang="en">
+	<nav id="navbar">
+		<span class="nav">
+			<a href="/" class="home-logo"><img class="logo" src="/assets/edsRugbyLogo.png" alt="edsRugbyLogo"></a>
+			<div class="hamburgerMenu" onclick="toggleMenuButton(this)">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+			<a href="/" aria-label="Go to  Homepage" class="link-button home link-small-hidden">
+				<span>Home</span>
+			</a>
+			<a href="/about/" aria-label="Go to About Page" class="link-button link-small-hidden">
+				<span>About</span>
+			</a>
+			<a href="/gallery/" aria-label="Go to Gallery Page" class="link-button link-small-hidden">
+				<span>Gallery</span>
+			</a>
+			<a href="/contact/" aria-label="Go to Contact Us Page" class="link-button link-small-hidden">
+				<span>Contacts</span>
+			</a>
+		</span>
+	</nav>
+	<div id="cookie-notice" style="display:none;">
+		<div>
+		Just to let you know, we use cookies to analyse our web traffic.
+		To do this, some information about your use of our site is shared with Google.
+		</div>
+		<div>By continuing to use this site, you are consenting to this.</div>
+		<div class="buttonGrey" onclick="cookieDismiss();">Close</div>
+	</div>
+	{{ content }}
+	
+	<script>
+/*
+		document.getElementById("menu-link").onclick = function (e) {
+			e.preventDefault();
+			if (document.getElementsByTagName("nav")[0].className == "visible") {
+				document.getElementsByTagName("nav")[0].className = "";
+			} else {
+				document.getElementsByTagName("nav")[0].className = "visible";
+			}
+		}*/
+	</script>
+</body>
+</html>
