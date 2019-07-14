@@ -243,7 +243,8 @@ img.gallery-thumb {
     width: 90%;
     min-width: 200px;
     max-width: 600px;
-    text-align: center;
+	text-align: center;
+	z-index:1;
 }
 #cookie-notice:hover{
     background: rgba(255,255,255,1);
