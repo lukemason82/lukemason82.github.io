@@ -1,0 +1,38 @@
+# Events
+#  name: event name
+#  date: date of event (dd/mm/yyyy)
+#  time: time of event (hh:mm) or leave blank for all day event
+#  flyerpic: location of flyer image to show within /assets/events, or blank if no image
+
+- header: "Upcoming Events"
+
+- name: "Pitch grand opening"
+  date: "14/09/2019"
+  time: "12:00"
+  location: "New Playing field"
+  flyerpic: "field.jpg"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et lectus lorem. Quisque eu diam leo. Etiam mattis, libero at convallis iaculis, sapien nulla pharetra erat, sed viverra odio quam eu ante. Aenean at laoreet nisi. Ut mattis, ipsum sed vulputate ultricies, libero lacus semper nisi, id bibendum urna arcu quis velit. Nam libero augue, scelerisque nec libero mattis, mattis facilisis velit. Curabitur urna mauris, hendrerit non egestas sit amet, pharetra sit amet turpis. In et ultrices mauris. Vivamus in lacus aliquam lectus consequat tincidunt a non diam. Integer interdum orci non orci dapibus blandit."
+
+- name: "Bonfire"
+  date: "02/11/2019"
+  time: ""
+  location: "New Playing field"
+  flyerpic: ""
+  description: ""
+
+- name: "Winter Ball"
+  date: "01/02/20"
+  time: ""
+  location: "Ball Room"
+  flyerpic: ""
+  description: ""
+
+
+- name: ""
+  date: ""
+  time: ""
+  location: ""
+  flyerpic: ""
+  description: ""
+
+- header: "Past Events"

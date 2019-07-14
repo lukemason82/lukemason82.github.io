@@ -1,8 +1,10 @@
 window.onload = function(){
-  if(getCookie('show_cookie_notice') != 'no'){
-    document.getElementById("cookie-notice").style.display = "block";
-  }
-  document.getElementById("navbar").style.backgroundColor = "rgba(0,0,0,0)";
+	if(getCookie('show_cookie_notice') != 'no'){
+		document.getElementById("cookie-notice").style.display = "block";
+	}
+	if(window.scrollY <= 0){
+		document.getElementById("navbar").style.backgroundColor = "rgba(0,0,0,0)";
+	}
 }
 
 function cookieDismiss(){
@@ -56,3 +58,12 @@ window.onscroll = function() {
 		document.getElementById("navbar").style.backgroundColor = "rgba(0,0,0,0)";
 	}};
 
+
+function showDesc(element){
+	event.preventDefault();
+	if(element.firstElementChild.style.maxHeight != "0px"){
+		element.firstElementChild.style.maxHeight = "0px";
+	}else{
+		element.firstElementChild.style.maxHeight = "400px";
+	}
+}

@@ -1,8 +1,16 @@
+# Contacts
+#  name: name of person
+#  role: their role in the club (optional)
+#  phone: Their phone number (optional)
+#  email: their email address (optional)
+#  photo: location of profile image to show within /assets/contacts, or blank if no image
+
 - header: Key Contacts
 
 - name: Huw Lloyd
   role: President
   phone: 07580 112222
+  email: 
   photo: 0.jpeg
 
 - name: BRIAN CHAPPELHOW

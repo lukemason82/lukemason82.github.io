@@ -9,6 +9,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
 	<link href="/style.css" rel="stylesheet">
 	<script type="text/javascript" src="/script.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143319155-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-143319155-1');
+	</script>
 </head>
 <body lang="en">
 	<nav id="navbar">
@@ -22,6 +31,12 @@
 			<a href="/" aria-label="Go to  Homepage" class="link-button home link-small-hidden">
 				<span>Home</span>
 			</a>
+			<a href="/rugby/" aria-label="Go to Rugby Page" class="link-button link-small-hidden">
+				<span>Rugby</span>
+			</a>
+			<a href="/events/" aria-label="Go to Events Page" class="link-button link-small-hidden">
+				<span>Events</span>
+			</a>
 			<a href="/about/" aria-label="Go to About Page" class="link-button link-small-hidden">
 				<span>About</span>
 			</a>
@@ -29,7 +44,7 @@
 				<span>Gallery</span>
 			</a>
 			<a href="/contact/" aria-label="Go to Contact Us Page" class="link-button link-small-hidden">
-				<span>Contacts</span>
+				<span>Contact Us</span>
 			</a>
 		</span>
 	</nav>
@@ -41,18 +56,12 @@
 		<div>By continuing to use this site, you are consenting to this.</div>
 		<div class="buttonGrey" onclick="cookieDismiss();">Close</div>
 	</div>
+
 	{{ content }}
-	
-	<script>
-/*
-		document.getElementById("menu-link").onclick = function (e) {
-			e.preventDefault();
-			if (document.getElementsByTagName("nav")[0].className == "visible") {
-				document.getElementsByTagName("nav")[0].className = "";
-			} else {
-				document.getElementsByTagName("nav")[0].className = "visible";
-			}
-		}*/
-	</script>
+
+	<div id="footer">
+			<span style="float:right;">DJC</span>
+			&copy; Edwardian FC {{ 'now' | date: "%Y" }}<br>
+	</div>
 </body>
 </html>
