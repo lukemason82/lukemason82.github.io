@@ -67,3 +67,13 @@ function showDesc(element){
 		element.firstElementChild.style.maxHeight = "400px";
 	}
 }
+
+function toggleDropdown(elementId){
+	event.preventDefault();
+	element = document.getElementById(elementId);
+	if(element.style.display == "none"){
+		element.style.display = "";
+	}else{
+		element.style.display = "none";
+	}
+}

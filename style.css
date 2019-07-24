@@ -183,10 +183,21 @@ nav a.home {
 	cursor:pointer;
 }
 
+.dropdown a{
+	display: block;
+}
+.dropdown>div{
+	position: absolute;
+	background-color:rgba(0,0,0,0.4) !important;
+}
+
+
 @media screen and (max-width: 550px) {
     nav {
 		padding: 0.5em;
 		width: initial;
+		max-height: 100%;
+		overflow-y: auto;
     }
     nav span {
         display: block;
@@ -219,7 +230,13 @@ nav a.home {
     }
     nav.visible {
         background-color:rgba(0,0,0,0.4) !important;
-    }
+	}
+	nav>.dropdown{
+		float:left;	
+	}
+	.dropdown>div{
+		position: static;
+	}
 }
 
 .gallery-container {

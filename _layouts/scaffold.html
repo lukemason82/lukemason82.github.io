@@ -31,9 +31,23 @@
 			<a href="/" aria-label="Go to  Homepage" class="link-button home link-small-hidden">
 				<span>Home</span>
 			</a>
-			<a href="/rugby/" aria-label="Go to Rugby Page" class="link-button link-small-hidden">
-				<span>Rugby</span>
-			</a>
+
+			<div class="dropdown">
+				<a href="/rugby/" aria-label="Go to Rugby Page" class="link-button link-small-hidden" onclick="toggleDropdown('dropdownRugby');">
+					<span>Rugby<img src="/assets/chevron-down.png" alt="" style="height:1em;margin-left:1em;"></span>
+				</a>
+				<div id="dropdownRugby" style="display:none;">
+					<a href="http://edwardianfc.rfu.club/teams/edwardians/5558/profile" aria-label="Go to Rugby Page" class="link-button link-small-hidden drop-menu">
+						<span>Mens Rugby</span>
+					</a>
+					<a href="http://edwardianfc.rfu.club/teams/edwardian-fc-u16m/464561/profile" aria-label="Go to Rugby Page" class="link-button link-small-hidden drop-menu">
+						<span>Mini & Juniors</span>
+					</a>
+					<a href="https://www.facebook.com/LittleRugstersSolihull/" aria-label="Go to Rugby Page" class="link-button link-small-hidden drop-menu">
+						<span>Little Rugsters (1-5)</span>
+					</a>
+				</div>
+			</div>
 			<a href="/events/" aria-label="Go to Events Page" class="link-button link-small-hidden">
 				<span>Events</span>
 			</a>
