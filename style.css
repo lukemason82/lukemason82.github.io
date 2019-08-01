@@ -35,6 +35,17 @@ a.link-button {
 a.link-button, a.link-button * {
     vertical-align: middle;
 }
+a.link-external:after{
+	content: '';
+    background-image: url(/assets/linkIcon.png);
+    background-position: center;
+    background-size: 1em;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    margin-left: 0.5em;
+}
 
 nav {
     background-color:rgba(0,0,0,0.3);
@@ -186,13 +197,15 @@ nav a.home {
 .dropdown a{
 	display: block;
 }
-.dropdown>div{
+.dropdown{
 	position: absolute;
 	background-color:rgba(0,0,0,0.4) !important;
+	white-space: nowrap;
+    padding-right: 1em;
 }
 
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 590px) {
     nav {
 		padding: 0.5em;
 		width: initial;
@@ -229,12 +242,13 @@ nav a.home {
         display: inline-block;
     }
     nav.visible {
-        background-color:rgba(0,0,0,0.4) !important;
+		background-color:rgba(0,0,0,0.4) !important;
+		width:100%;
 	}
 	nav>.dropdown{
 		float:left;	
 	}
-	.dropdown>div{
+	.dropdown{
 		position: static;
 	}
 }
@@ -317,7 +331,7 @@ img.gallery-thumb {
 	height: 8em;
 	margin: 5px;
     width: 48%;
-	min-width: 260px;
+	/* min-width: 260px; */
 	overflow: hidden;
 	background-color: #FFFFFF;
 }
@@ -331,8 +345,16 @@ img.gallery-thumb {
 	max-height: 850px;
 	margin: 5px;
     width: 48%;
-	min-width: 260px;
+	/* min-width: 260px; */
 	/* overflow: hidden; */
+}
+@media screen and (max-width: 700px) {
+	.event-card{
+		width: 100%;
+	}
+	.business-card{
+		width: 100%;
+	}
 }
 .event-card div{
 	padding: 1em;
