@@ -32,11 +32,3 @@ src="https://www.google.com/maps/embed/v1/place?q=Edwardians%20FC%20The%20Memori
 
 {% endif %}
 {% endfor %}
-
-<br>
-<hr>
-{% for image in site.static_files %}
-URL: {{ site.baseurl }} l/l {{ image.path }}
-{% endfor %}
-
-End
