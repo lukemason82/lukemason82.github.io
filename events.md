@@ -36,4 +36,4 @@ permalink: /events/
 
 
 <hr>
-Page was last updated: {{ "now" | date: "%Y-%m-%d %H:%M:%S" }}.
+Page was last updated: {{ "now" | date: "%Y-%m-%d" }}.

@@ -190,7 +190,8 @@ div.pageContainer{
 
 /*Modify nav bar based on screen width*/
 nav a.home {
-    display: none;
+	/* Commented below to keep home tab visible */
+    /* display: none; */
 }
 .hamburgerMenu {
 	display: none;
