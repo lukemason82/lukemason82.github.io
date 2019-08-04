@@ -12,7 +12,7 @@ permalink: /events/
 			{% if event.date and event.date != "" %}{{ event.date }}{% endif %}
 			{% if event.time and event.time != "" %} - {{ event.time }}{% endif %}
 			{% if event.description and event.description != "" %}<br>
-				<a href="#" onclick="showDesc(this);">
+				<a href="#" onclick="showDesc(this,event);">
 					More Info...
 					<span class="event-description" style="max-height:0px;">{{event.description }}</span>
 				</a>

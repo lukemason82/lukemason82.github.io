@@ -59,7 +59,7 @@ window.onscroll = function() {
 	}};
 
 
-function showDesc(element){
+function showDesc(element,event){
 	event.preventDefault();
 	if(element.firstElementChild.style.maxHeight != "0px"){
 		element.firstElementChild.style.maxHeight = "0px";
