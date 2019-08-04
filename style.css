@@ -401,6 +401,7 @@ iframe.social-embed{
     background: rgba(0, 14, 67, 0.75);
 	padding:15px;
 	color:#999999;
+	text-align:center;
 }
 #social1{
 	display:none;
