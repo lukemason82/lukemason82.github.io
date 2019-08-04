@@ -373,7 +373,7 @@ img.gallery-thumb {
     display: inline-block;
 	overflow-y: auto;
 	min-width: 320px;
-	border: 1px solid #000000;
+	/* border: 1px solid #000000; */
 }
 iframe.social-embed{
 	/* border: none; */
@@ -397,4 +397,18 @@ iframe.social-embed{
 	background-color: #EEE;
 	padding:15px;
 	color:#999999;
+}
+#social1{
+	display:none;
+}
+#social0{
+	display:block
+}
+@media screen and (min-width: 1020px) {
+	#social1{
+		display:block
+	}
+	#social0{
+		display:none;
+	}
 }
