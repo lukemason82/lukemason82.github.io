@@ -181,7 +181,7 @@ div.pageContainer::before {
 div.pageContainer{
 	width:100%;
 	background-color: #EEE;
-	min-height:100%;
+	min-height:80%;
 	position: relative;
 }
 
@@ -330,7 +330,7 @@ img.gallery-thumb {
 	padding: 1em;
 	height: 8em;
 	margin: 5px;
-    width: 48%;
+    width: 47%;
 	/* min-width: 260px; */
 	overflow: hidden;
 	background-color: #FFFFFF;
@@ -338,22 +338,25 @@ img.gallery-thumb {
 .business-card img{
     float: left;
     margin-right: 10px;
-    height: 100%;
+	height: 100%;
+	max-width: 48%;
 }
 .event-card{
 	/* padding: 1em; */
 	max-height: 850px;
 	margin: 5px;
-    width: 48%;
+    width: 47%;
 	/* min-width: 260px; */
 	/* overflow: hidden; */
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 490px) {
 	.event-card{
-		width: 100%;
+		width: 98%;
 	}
+}
+@media screen and (max-width: 640px) {
 	.business-card{
-		width: 100%;
+		width: 98%;
 	}
 }
 .event-card div{
@@ -385,6 +388,7 @@ iframe.social-embed{
 	overflow:hidden;
 	vertical-align:top;
 	width:100%;
+	overflow-y: auto;
 }
 #footer{
 	border-top:1px solid #666;
