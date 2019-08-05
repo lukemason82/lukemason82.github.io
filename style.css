@@ -29,7 +29,7 @@ a.link-button {
     transition: background-color 0.5s;
     padding: 0.6em 1em;
     margin: 0.5em;
-    border-radius: 1em;
+    border-radius: 1.5em;
 }
 
 a.link-button, a.link-button * {
