@@ -10,11 +10,14 @@ The Memorial Ground<br>
 Streetsbrook Road<br>
 Solihull<br>
 B90 3PE</p>
-<a href="tel:0121 744 6831">0121 744 6831</a>
+<a href="tel:01217446831">0121 744 6831</a>
 
 <iframe width="600" height="450" frameborder="0" style="border:0"
 src="https://www.google.com/maps/embed/v1/place?q=Edwardians%20FC%20The%20Memorial%20Ground&key=AIzaSyAUS63McAE82HKV-b1stZQG0_x5DndJ3dU" allowfullscreen style="width:100%;"></iframe>
 
+{% comment %}
+<!--Contacts list is generated from _data/contacts.yml and images in assets/contacts/-->
+{% endcomment %}
 {% for contact in site.data.contacts %}
 {% if contact.name and contact.name != "" %}
 <div class="card business-card">
