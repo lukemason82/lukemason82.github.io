@@ -97,7 +97,7 @@ section.promo {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 50%;
-    padding: 5em 0em 2em 0em;
+    padding: 5em 0em 0em 0em;
 }
 
 section.promo * {
