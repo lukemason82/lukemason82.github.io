@@ -17,7 +17,7 @@ The first team play in Midlands 3 West North, in the 2018/19 season we finished 
 
 The second team play in the Midlands Merit league.
 
-Training is held Tuesdays and Thursdays starting at 7.30pm, all abilities welcome, if you want to come down call Dave Coles on 078827080386.
+Training is held Tuesdays and Thursdays starting at 7.30pm, all abilities welcome, if you want to come down call Dave Coles on [07882 708386](tel:07882708386).
 
 **Girls Rugby**
 
