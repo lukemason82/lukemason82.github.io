@@ -96,7 +96,7 @@ section.promo {
     /* background-attachment: fixed; */
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 90%;
+    min-height: 50%;
     padding: 5em 0em 2em 0em;
 }
 
@@ -417,9 +417,7 @@ iframe.social-embed{
 	overflow-y: auto;
 }
 #footer{
-	border-top:1px solid #666;
 	width: 100%;
-	/* background-color: #EEE; */
     background: rgba(0, 14, 67, 0.75);
 	padding:15px;
 	color:#999999;
