@@ -185,7 +185,8 @@ div.pageContainer{
 	/* background-color: #EEE; */
 	background-image: linear-gradient(rgba(203, 179, 56, 0.75), rgba(0, 14, 67, 0.75));
 	min-height:80%;
-	position: relative;
+	position:relative;
+	overflow-x:hidden;
 }
 
 /*Modify nav bar based on screen width*/
@@ -353,9 +354,25 @@ img.gallery-thumb {
 	/* min-width: 260px; */
 	/* overflow: hidden; */
 }
+.spacer{
+	display:none;
+}
+#footer{
+	width: 100%;
+    background: rgba(0, 14, 67, 0.75);
+	padding:15px;
+	color:#999999;
+	text-align:center;
+}
 @media screen and (max-width: 490px) {
 	.event-card{
 		width: 98%;
+	}
+	.spacer{
+		display:block;
+	}
+	#footer{
+		padding-bottom:2em;
 	}
 }
 @media screen and (max-width: 640px) {
@@ -415,11 +432,4 @@ iframe.social-embed{
 	vertical-align:top;
 	width:100%;
 	overflow-y: auto;
-}
-#footer{
-	width: 100%;
-    background: rgba(0, 14, 67, 0.75);
-	padding:15px;
-	color:#999999;
-	text-align:center;
 }
