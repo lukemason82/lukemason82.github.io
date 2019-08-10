@@ -22,11 +22,6 @@
 #   role: Treasurer
 #   phone: 
 #   photo: 2.jpeg
-  
-# - name: Peter Green
-#   role: Fixture Secretary
-#   phone: 07711 428776
-#   photo: 3.png
 
 # - name: Dave Coles
 #   role: Membership Secretary
@@ -46,6 +41,16 @@
 - name: Mike Allport
   role: Clubhouse/Function Room
   phone: 07545 847492
+  photo: 3.png
+
+- name: Peter Green
+  role: Fixture Secretary
+  phone: 07711 428776
+  photo: 3.png
+
+- name: Michael Boyle
+  role: Secretary
+  phone: 07968 247009
   photo: 3.png
 
 # - name: Craig Lea
@@ -125,6 +130,6 @@
 #   photo: 9.jpeg
 
 #- name: 
-# role: 
+#  role: 
 #  phone: 
 #  photo: .jpeg
