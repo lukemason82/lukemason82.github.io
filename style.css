@@ -387,11 +387,12 @@ img.gallery-thumb {
     float: left;
     width: 100%;
 }
-.social-embed{
+div.social-embed{
 	width: 100%;
     max-height: 400px;
 	overflow-y: auto;
 	border: 5px solid #000e43;
+	float: left;
 }
 .social-embed-container{
     width: 320px;
@@ -419,11 +420,11 @@ img.gallery-thumb {
 }
 iframe.social-embed{
 	/* border: none; */
-	visibility: visible;
-	width: 320px;
-	height: 600px;
+	/* visibility: visible; */
+	/* width: 320px; */
+	/* height: 600px; */
 	/* vertical-align: top; */
-	display: inline-block;
+	display: block;
 }
 .event-description{
 	display:inline-block;
