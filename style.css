@@ -419,12 +419,11 @@ div.social-embed{
     /* border-radius: 5px 5px 0 0; */
 }
 iframe.social-embed{
-	/* border: none; */
-	/* visibility: visible; */
 	/* width: 320px; */
 	/* height: 600px; */
 	/* vertical-align: top; */
 	display: block;
+	margin:auto;
 }
 .event-description{
 	display:inline-block;
